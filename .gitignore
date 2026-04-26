@@ -1,0 +1,16 @@
+config/config.yaml
+output/raw/*
+output/csv/*
+output/graphs/*
+output/reports/*
+!output/raw/.gitkeep
+!output/csv/.gitkeep
+!output/graphs/.gitkeep
+!output/reports/.gitkeep
+*.pyc
+__pycache__/
+.venv/
+venv/
+.DS_Store
+monitor_history.log
+*.log

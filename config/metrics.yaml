@@ -1,0 +1,16 @@
+cpu:
+  - CPU0
+  - CPU1
+
+memory:
+  - MemTotal
+  - MemFree
+  - MemAvailable
+  - Buffers
+  - Cached
+  - SwapCached
+  - Active
+  - Inactive
+  - Slab
+  - SReclaimable
+  - SUnreclaim

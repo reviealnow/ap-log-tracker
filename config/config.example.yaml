@@ -1,0 +1,37 @@
+control_machine:
+  tftp_server_ip: ""
+  tftp_root: ""
+  output_dir: "output"
+
+raspberry_pi:
+  host: ""
+  username: "pi"
+  ssh_port: 22
+  minicom_capture_path: "~/minicom.cap"
+  remote_log_dir: "~/log"
+
+dut:
+  ip: ""
+  label: "DUT-01"
+  mark: "01"
+  firmware_version: ""
+  sysmon_command: "sh /mnt/data/sysMon001.sh __s __h"
+
+monitor:
+  interval_minutes: 10
+  keep_minicom_cap_after_upload: false
+
+metrics:
+  - CPU0
+  - CPU1
+  - MemTotal
+  - MemFree
+  - MemAvailable
+  - Buffers
+  - Cached
+  - SwapCached
+  - Active
+  - Inactive
+  - Slab
+  - SReclaimable
+  - SUnreclaim
